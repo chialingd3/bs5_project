@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prettier": "prettier -w ./src"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "mini-css-extract-plugin": "^1.6.0",
     "postcss": "^8.3.5",
     "postcss-loader": "^6.1.0",
+    "prettier": "^2.3.2",
     "sass": "^1.37.0",
     "sass-loader": "^12.1.0",
     "style-loader": "^2.0.0",
